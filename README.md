@@ -5,7 +5,7 @@
 ## CocoaPods
 
 ```ruby
-pod 'AdtalosAdKitStatic', :git => 'https://github.com/adtalos/AdtalosAdKitStatic.git', :tag => '1.1.2'
+pod 'AdtalosAdKitStatic', :git => 'https://github.com/adtalos/AdtalosAdKitStatic.git', :tag => '0.0.3'
 ```
 
 ## Swift Package Manager

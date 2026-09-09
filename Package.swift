@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdtalosAdKitStatic",
-            path: "AdtalosAdKit-Static.xcframework"
+            path: "AdtalosAdKit.xcframework"
         )
     ]
 )
