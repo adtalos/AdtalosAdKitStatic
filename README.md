@@ -1,11 +1,11 @@
-# AdtalosAdKit
+# AdtalosAdKitStatic
 
 新义互联广告 SDK 静态库。
 
 ## CocoaPods
 
 ```ruby
-pod 'AdtalosAdKit', :git => 'https://github.com/adtalos/AdtalosAdKitStatic.git', :tag => '1.1.2'
+pod 'AdtalosAdKitStatic', :git => 'https://github.com/adtalos/AdtalosAdKitStatic.git', :tag => '1.1.2'
 ```
 
 ## Swift Package Manager
@@ -21,3 +21,5 @@ https://github.com/adtalos/AdtalosAdKitStatic.git
 ```swift
 import AdtalosAdKit
 ```
+
+选择产品 `AdtalosAdKitStatic`；SDK 的代码模块名仍为 `AdtalosAdKit`。

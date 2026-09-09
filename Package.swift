@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "AdtalosAdKit",
+    name: "AdtalosAdKitStatic",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "AdtalosAdKit",
-            targets: ["AdtalosAdKit"]
+            name: "AdtalosAdKitStatic",
+            targets: ["AdtalosAdKitStatic"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "AdtalosAdKit",
+            name: "AdtalosAdKitStatic",
             path: "AdtalosAdKit-Static.xcframework"
         )
     ]
