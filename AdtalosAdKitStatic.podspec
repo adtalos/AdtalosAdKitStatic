@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AdtalosAdKitStatic"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "AdtalosAdKitStatic 广告 SDK"
 
   spec.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "AdtalosAdKit.xcframework"
   spec.resources = "AdtalosAd.bundle"
   spec.resource_bundles = {
-    "AdtalosAdKitStatic_Privacy" => "AdtalosAdKit-Static.xcframework/ios-arm64/AdtalosAdKit.framework/PrivacyInfo.xcprivacy"
+    "AdtalosAdKitStatic_Privacy" => "AdtalosAdKit.xcframework/ios-arm64/AdtalosAdKit.framework/PrivacyInfo.xcprivacy"
   }
   spec.source = {
     :git => "https://github.com/adtalos/AdtalosAdKitStatic.git",
