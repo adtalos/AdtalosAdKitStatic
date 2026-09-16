@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AdtalosAdKitStatic"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "AdtalosAdKitStatic 广告 SDK"
 
   spec.description  = <<-DESC
